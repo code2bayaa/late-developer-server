@@ -1,0 +1,15 @@
+[build]
+  functions = "functions"
+  
+
+[[redirects]]
+  to="/.netlify/functions/newsletter/:splat"
+  from="/newsletter/*"
+  status=200
+
+[[redirects]]
+  to="/.netlify/functions/newsletter/:splat"
+  from="/users/*"
+  status=200
+
+
